@@ -1,0 +1,39 @@
+{\rtf1\ansi\deff0\adeflang1025
+{\fonttbl{\f0\froman\fprq2\fcharset0 Times New Roman;}{\f1\froman\fprq2\fcharset2 Symbol;}{\f2\fswiss\fprq2\fcharset0 Arial;}{\f3\fnil\fprq0\fcharset0 Times New Roman{\*\falt serif};}{\f4\fnil\fprq2\fcharset0 Microsoft YaHei;}{\f5\fnil\fprq2\fcharset0 Arial;}{\f6\fswiss\fprq0\fcharset128 Arial;}}
+{\colortbl;\red0\green0\blue0;\red34\green34\blue34;\red0\green0\blue128;\red29\green28\blue29;\red17\green85\blue204;\red0\green0\blue255;\red49\green49\blue49;\red128\green128\blue128;}
+{\stylesheet{\s0\snext0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af7\langfe2052\dbch\af5\afs24\lang1081\loch\f0\fs24\lang16393 Default;}
+{\*\cs15\snext15\cf3\ul\ulc0\langfe255\lang255\lang255 Internet Link;}
+{\s16\sbasedon0\snext17\sb240\sa120\keepn\hich\af4\dbch\af5\afs28\loch\f2\fs28 Heading;}
+{\s17\sbasedon0\snext17\sb0\sa120 Text body;}
+{\s18\sbasedon17\snext18\sb0\sa120\dbch\af6 List;}
+{\s19\sbasedon0\snext19\sb120\sa120\noline\i\dbch\af6\afs24\ai\fs24 Caption;}
+{\s20\sbasedon0\snext20\noline\dbch\af6 Index;}
+}{\info{\creatim\yr0\mo0\dy0\hr0\min0}{\revtim\yr0\mo0\dy0\hr0\min0}{\printim\yr0\mo0\dy0\hr0\min0}{\comment OpenOffice}{\vern4170}}\deftab709
+
+{\*\pgdsctbl
+{\pgdsc0\pgdscuse195\pgwsxn11906\pghsxn16838\marglsxn1134\margrsxn1134\margtsxn1134\margbsxn1134\pgdscnxt0 Default;}}
+\formshade\paperh16838\paperw11906\margl1134\margr1134\margt1134\margb1134\sectd\sbknone\sectunlocked1\pgndec\pgwsxn11906\pghsxn16838\marglsxn1134\margrsxn1134\margtsxn1134\margbsxn1134\ftnbj\ftnstart1\ftnrstcont\ftnnar\aenddoc\aftnrstcont\aftnstart1\aftnnrlc
+\pgndec\pard\plain \s17\sb0\sa120\widctlpar\li0\ri0\lin0\rin0\fi0\sb0\sa0{\scaps0\caps0\cf2\expnd0\expndtw0\i0\ul\ulc0\b\rtlch \ltrch\loch\fs24\loch\f3
+Assignment}
+\par \pard\plain \s17\sb0\sa120\widctlpar\li0\ri0\lin0\rin0\fi0\sb0\sa0{\ul\ulc0\b\rtlch \ltrch\loch\fs24\loch\f3
+}
+\par \pard\plain \s17\sb0\sa120\widctlpar\li0\ri0\lin0\rin0\fi0\sb0\sa0{\scaps0\caps0\cf4\expnd0\expndtw0\i0\b0\rtlch \ltrch\loch\fs24\loch\f3
+Attached (\~ }{{\field{\*\fldinst HYPERLINK "http://bit.ly/2wbVdp3" \\t "_blank" }{\fldrslt \cf3\ul\ulc0\langfe255\lang255\lang255\scaps0\caps0\cf6\expnd0\expndtw0\i0\b0\rtlch \ltrch\loch\fs24\loch\f3
+http://bit.ly/2wbVdp3}{\scaps0\caps0\cf4\expnd0\expndtw0\i0\b0\rtlch \ltrch\loch\fs24\loch\f3
+}}\~ ) is a dataset with ~5 years of data on large cap US stocks. What I would like is for you to create a function that will provide me with a histogram of the future price return outcomes of stocks with specific characteristics (ignore the price returns already in the dataset).}
+\par \pard\plain \s17\sb0\sa120\widctlpar\li0\ri0\lin0\rin0\fi0\sb0\sa0{\scaps0\caps0\cf4\expnd0\expndtw0\rtlch \ltrch
+\~ }
+\par \pard\plain \s17\sb0\sa120\widctlpar\li0\ri0\lin0\rin0\fi0\sb0\sa0{\scaps0\caps0\cf4\expnd0\expndtw0\i0\b0\rtlch \ltrch\loch\fs24\loch\f3
+The function should have 3 inputs, metric, value, and timeframe. Metric would allow me to choose a ratio, value would be the minimum value to be observed to be used to classify the stock is in the universe I am interested in, and timeframe is the length of time over which to calculate the price change into the future.}
+\par \pard\plain \s17\sb0\sa120\widctlpar\li0\ri0\lin0\rin0\fi0\sb0\sa0{\scaps0\caps0\cf4\expnd0\expndtw0\rtlch \ltrch
+\~ }
+\par \pard\plain \s17\sb0\sa120\widctlpar\li0\ri0\lin0\rin0\fi0\sb0\sa0{\scaps0\caps0\cf4\expnd0\expndtw0\i0\b0\rtlch \ltrch\loch\fs24\loch\f3
+For example, I want to know what the distribution of returns has been (histogram of price changes) for stocks that have had price/epsntm [Metric, string] ratios greater than 30 [value, float] over a 6 month [timeframe, integer] timespan after the metric is observed. This is one histogram, not one per stock.}
+\par \pard\plain \s17\sb0\sa120\widctlpar\li0\ri0\lin0\rin0\fi0\sb0\sa0{\scaps0\caps0\cf4\expnd0\expndtw0\rtlch \ltrch
+\~ }
+\par \pard\plain \s17\sb0\sa120\widctlpar\li0\ri0\lin0\rin0\fi0\sb0\sa0{\scaps0\caps0\cf4\expnd0\expndtw0\i0\b0\rtlch \ltrch\loch\fs24\loch\f3
+Use the following metrics: price/epsNTM, entrVal/ebitdaNTM, entrVal/salesNTM, roe and pB. The output would be a chart and a data.frame of binned returns and their frequencies. Good commenting would be very much appreciated. This is meant to not only get a sense for your abilities but also for your code organization. The code should ideally be in R but we will accept Python. Please do not provide a response that has more than 30 lines of code.}{\scaps0\caps0\cf7\expnd0\expndtw0\i0\b0\rtlch \ltrch\loch
+\~ }
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af7\langfe2052\dbch\af5\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+}
+\par }
